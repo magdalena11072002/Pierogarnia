@@ -1,7 +1,31 @@
 *{font-family: 'Times New Roman', Times, serif;}
 
-.header{
+header{
     font-size: 2.6rem;
     text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
 
+body{
+    background-image:url("tła/lososiowe.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.menu{
+    margin-right: 2rem;
+    color: aliceblue;
+    text-decoration: double;
+    text-align: center;
+}
+
+.MenuWrap {
+    background-color: black;
+    font-size: 1.5rem;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0.1rem;
 }
